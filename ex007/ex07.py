@@ -7,12 +7,12 @@ if b < a and b < c:
 if c < a and c < b:
     menor = c 
 
-#maior = a
-#if b>a and b>c:
-    #maior = b
-#if c>a and c>b:
-    #maior = c   
+maior = a
+if b > a and b > c:
+    maior = b
+if c > a and c > b:
+    maior = c   
 
 print('O menor valor digitado foi {}'.format(menor))  
-#'''print('O maior valor foi {}'.format(maior))''' 
+print('O maior valor foi {}'.format(maior))
 
